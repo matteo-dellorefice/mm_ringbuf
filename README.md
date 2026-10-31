@@ -40,7 +40,13 @@ Compile both the kernel module and the sample test application by running the lo
 make
 ```
 
-Load the module into your running environment:
+To load the module at boot install it with:
+
+```bash
+sudo make install
+```
+
+or, load the module into your running environment:
 ```bash
 make load
 ```
