@@ -1,0 +1,1 @@
+KERNEL=="mm_ringbuf0", SUBSYSTEM=="mm_ringbuf", MODE="0666"
